@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #F8F7EF;
+    align-content: center;
+}
+
+.header-bar{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-bar li {
+    flex-direction: row;
+    margin-left: 50px;
+}

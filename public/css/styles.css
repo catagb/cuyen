@@ -4,18 +4,22 @@
 
 .header {
     background-color: #F8F7EF;
-    align-content: center;
-    text-align: center;
+    height: 140px;
+    display: flex;
+    justify-content: center;
 }
 
 .header-bar{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 350px;
+    flex-direction: row;
+    align-items: flex-end;
 }
 
 .header-bar li {
     flex-direction: row;
     margin-left: 30px;
+    color: #6EA034;
+    font-weight: 200;
 }
